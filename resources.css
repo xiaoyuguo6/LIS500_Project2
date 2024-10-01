@@ -1,4 +1,4 @@
-/* General styles for the page */
+/* 通用样式 */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -33,44 +33,45 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Flexbox for horizontal layout in the resource section */
+/* 修改后的资源部分布局为垂直排列 */
 .resource-section {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 50px 20px;
+    flex-direction: column; /* 垂直方向排列 */
+    align-items: center;
+    padding: 40px 0;
 }
 
 .resource-item {
-    flex-basis: 30%;
+    width: 80%;
+    margin: 20px 0; /* 让每个版块有上下间距 */
     background-color: #fff;
     padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    text-align: center;
 }
 
 .resource-item h3 {
     color: #00796b;
-    margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
-.resource-item p {
-    margin-bottom: 20px;
-    line-height: 1.6;
+.resource-item r {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
 }
 
 .resource-item a {
     color: #00796b;
+    font-size: 1.2em;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .resource-item a:hover {
     text-decoration: underline;
 }
 
-/* Footer styles */
 footer {
     background-color: #00796b;
     color: white;
@@ -80,4 +81,5 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
