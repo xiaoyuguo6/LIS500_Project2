@@ -1,13 +1,13 @@
-/* 通用样式 */
+/* 全局样式 */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #e0f7fa;
+    background-color: #e0f7fa; /* 淡蓝色背景 */
     color: #333;
 }
 
 header {
-    background-color: #00796b;
+    background-color: #00796b; /* 深蓝绿色导航 */
     padding: 20px;
 }
 
@@ -33,53 +33,175 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* 修改后的资源部分布局为垂直排列 */
-.resource-section {
-    display: flex;
-    flex-direction: column; /* 垂直方向排列 */
-    align-items: center;
-    padding: 40px 0;
-}
-
-.resource-item {
-    width: 80%;
-    margin: 20px 0; /* 让每个版块有上下间距 */
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+/* 通用section样式 */
+section {
+    padding: 60px 20px;
     text-align: center;
 }
 
-.resource-item h3 {
-    color: #00796b;
-    font-size: 1.5em;
+/* 图片通用样式 */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
-.resource-item r {
-    display: block;
+/* 欢迎页面样式 */
+.welcome-section {
+    background-color: #b2ebf2; /* 浅蓝色背景 */
+}
+
+.welcome-section p {
+    font-size: 1.8em;
+    color: #004d40;
+}
+
+/* About Us 样式 */
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.about-card img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.about-card p {
     font-size: 1.1em;
-    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-card h3 {
+    font-size: 1.5em;
+    color: #00796b;
+    margin-top: 10px;
+}
+
+/* Resources 样式 */
+.resource-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.resource-item {
+    margin: 30px 0;
+    max-width: 600px;
+}
+
+.resource-item h3 {
+    font-size: 1.8em;
+    color: #00796b;
+}
+
+.resource-item p {
+    font-size: 1.2em;
 }
 
 .resource-item a {
     color: #00796b;
     font-size: 1.2em;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .resource-item a:hover {
     text-decoration: underline;
 }
 
+/* Tech Hero 样式 */
+.hero-section {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero-section img {
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-section h2 {
+    font-size: 2em;
+    color: #00796b;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.hero-section a {
+    color: #00796b;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section a:hover {
+    text-decoration: underline;
+}
+
+/* 添加反思部分样式 */
+.reflection-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e8f5e9;
+}
+
+.reflection-section h2 {
+    font-size: 2em;
+    color: #004d40;
+    margin-bottom: 40px;
+}
+
+.reflection-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.reflection-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reflection-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+/* 页脚样式 */
 footer {
     background-color: #00796b;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
 }
+
+
 
 
