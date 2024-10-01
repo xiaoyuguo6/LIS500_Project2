@@ -33,44 +33,90 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* 欢迎区样式 */
-.welcome-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 100px; /* 控制上下和左右的内边距 */
-    background-color: #b2ebf2; /* 浅蓝色背景 */
-}
-
-.intro-text p {
-    font-size: 2em;
-    font-weight: bold;
-    color: #004d40;
-    margin-right: 50px; /* 调整文字和图片的间距 */
-}
-
-.image-section {
-    flex: 1;
+/* 通用section样式 */
+section {
+    padding: 60px 20px;
     text-align: center;
 }
 
-.welcome-image {
+/* 图片通用样式 */
+img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
-/* 页脚样式 */
-footer {
+/* 欢迎页面样式 */
+.welcome-section {
+    background-color: #b2ebf2; /* 浅蓝色背景 */
+}
+
+.welcome-section p {
+    font-size: 1.8em;
+    color: #004d40;
+}
+
+/* About Us 样式 */
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    width: 30%;
+    margin: 20px;
     text-align: center;
+}
+
+.about-card img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+/* Resources 样式 */
+.resource-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.resource-section a {
+    color: #00796b;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.resource-section a:hover {
+    text-decoration: underline;
+}
+
+/* Tech Hero 样式 */
+.hero-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero-section img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+footer {
     background-color: #00796b;
     color: white;
+    text-align: center;
     padding: 10px;
-    width: 100%;
-    bottom: 0;
     position: relative;
+    bottom: 0;
+    width: 100%;
 }
+
 
 
 
