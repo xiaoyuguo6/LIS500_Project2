@@ -66,6 +66,15 @@ nav a:hover {
     background-color: #00796b;
 }
 
+/* 添加图片样式 */
+.welcome-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* 圆角图片 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    margin-top: 20px;
+}
+
 /* 页脚样式 */
 footer {
     text-align: center;
@@ -76,6 +85,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 
 
 
