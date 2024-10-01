@@ -65,6 +65,13 @@ img {
 }
 
 /* About Us Section */
+.about-section k {
+    font-family: 'Georgia', serif; /* 更改为你想要的字体 */
+    font-size: 1.2em; /* 调整字体大小 */
+    color: #555; /* 设置字体颜色 */
+    line-height: 1.6; /* 设置行高 */
+    text-align: left; /* 设置对齐方式 */
+}
 .about-section {
     display: flex;
     justify-content: space-around;
@@ -86,6 +93,13 @@ img {
 }
 
 /* Resources Section */
+.resource-section r {
+    font-family: 'Georgia', serif; /* 更改为你想要的字体 */
+    font-size: 1.2em; /* 调整字体大小 */
+    color: #555; /* 设置字体颜色 */
+    line-height: 1.6; /* 设置行高 */
+    text-align: left; /* 设置对齐方式 */
+}
 .resource-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
