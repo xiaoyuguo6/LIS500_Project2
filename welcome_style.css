@@ -2,12 +2,12 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa; /* 淡蓝色背景 */
     color: #333;
 }
 
 header {
-    background-color: #2b6777;
+    background-color: #00796b; /* 深蓝绿色导航 */
     padding: 20px;
 }
 
@@ -37,83 +37,46 @@ nav a:hover {
 .welcome-section {
     text-align: center;
     padding: 100px 20px;
-    background-color: #6c8b8e;
+    background-color: #b2ebf2; /* 浅蓝色欢迎区背景 */
 }
 
 .intro-text h1 {
-    font-size: 3.5em;
-    color: white;
-    margin-bottom: 10px;
+    font-size: 3em;
+    color: #00796b;
+    margin-bottom: 20px;
 }
 
 .intro-text p {
     font-size: 1.5em;
-    color: #eee;
+    color: #004d40;
 }
 
 .btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 30px;
-    background-color: #f2c14e;
-    color: #333;
+    background-color: #004d40;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2em;
 }
 
 .btn:hover {
-    background-color: #f29c4e;
+    background-color: #00796b;
 }
 
-/* 链接区样式 */
-.links-section {
-    padding: 60px 20px;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-.links-section h2 {
-    font-size: 2em;
-    margin-bottom: 40px;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-.card {
-    background-color: #e5e5e5;
-    border-radius: 10px;
-    width: 250px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.card h3 {
-    margin-top: 15px;
-    font-size: 1.5em;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
+/* 页脚样式 */
 footer {
     text-align: center;
-    background-color: #2b6777;
+    background-color: #00796b;
     color: white;
-    padding: 20px;
-    margin-top: 50px;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
+
 
 
  
