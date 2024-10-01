@@ -1,50 +1,120 @@
+/* 全局样式 */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #e5ffe5;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: #2d6a4f;
+    background-color: #2b6777;
     padding: 20px;
-    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline-block;
+    margin: 0 20px;
 }
 
 nav a {
-    color: white;
+    color: #fff;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 欢迎区样式 */
 .welcome-section {
     text-align: center;
-    padding: 100px;
-    background-color: #74c69d;
+    padding: 100px 20px;
+    background-color: #6c8b8e;
 }
 
-h1 {
-    font-size: 3em;
+.intro-text h1 {
+    font-size: 3.5em;
     color: white;
+    margin-bottom: 10px;
 }
 
-p {
+.intro-text p {
     font-size: 1.5em;
+    color: #eee;
 }
 
 .btn {
-    padding: 10px 20px;
-    background-color: #40916c;
-    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #f2c14e;
+    color: #333;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 1.2em;
 }
+
+.btn:hover {
+    background-color: #f29c4e;
+}
+
+/* 链接区样式 */
+.links-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.links-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    background-color: #2b6777;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
 
  
 
