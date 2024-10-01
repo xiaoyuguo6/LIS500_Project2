@@ -1,0 +1,76 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    overflow: hidden;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navigation ul li a:hover {
+    background-color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.about-container, .hero-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile, .hero-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.profile img, .hero-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resources ul li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
