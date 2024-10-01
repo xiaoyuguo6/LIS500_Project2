@@ -1,87 +1,44 @@
-/* 全局样式 */
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #e0f7fa; /* 淡蓝色背景 */
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="welcome.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="tech_hero.html">Tech Hero</a></li>
+            </ul>
+        </nav>
+    </header>
 
-header {
-    background-color: #00796b; /* 深蓝绿色导航 */
-    padding: 20px;
-}
+    <section class="about-section">
+        <div class="about-card">
+            <img src="person1.jpg" alt="Person 1">
+            <h3>Xiaoyu Guo</h3>
+            <p>Web Developer & Designer</p>
+        </div>
+        <div class="about-card">
+            <img src="person2.jpg" alt="Person 2">
+            <h3>Xiaoxue Zhang</h3>
+            <p>Data Analyst & Researcher</p>
+        </div>
+        <div class="about-card">
+            <img src="person3.jpg" alt="Person 3">
+            <h3>Yixin Li</h3>
+            <p>Software Engineer & Innovator</p>
+        </div>
+    </section>
 
-nav ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
+    <footer>
+        <p>&copy; 2024 Xiaoyu, Xiaoxue & Yixin</p>
+    </footer>
+</body>
+</html>
 
-nav ul li {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* 欢迎区样式 */
-.welcome-section {
-    text-align: center;
-    padding: 100px 20px;
-    background-color: #b2ebf2; /* 浅蓝色欢迎区背景 */
-}
-
-.intro-text h1 {
-    font-size: 3em;
-    color: #00796b;
-    margin-bottom: 20px;
-}
-
-.intro-text p {
-    font-size: 1.5em;
-    color: #004d40;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 30px;
-    background-color: #004d40;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-}
-
-.btn:hover {
-    background-color: #00796b;
-}
-
-/* 添加图片样式 */
-.welcome-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; /* 圆角图片 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
-    margin-top: 20px;
-}
-
-/* 页脚样式 */
-footer {
-    text-align: center;
-    background-color: #00796b;
-    color: white;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
