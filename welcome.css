@@ -104,7 +104,7 @@ img {
 }
 
 /* Tech Hero Section */
-.hero-section p {
+.hero-section h {
     font-family: 'Georgia', serif; /* 更改为你想要的字体 */
     font-size: 1.2em; /* 调整字体大小 */
     color: #555; /* 设置字体颜色 */
