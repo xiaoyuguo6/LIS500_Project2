@@ -1,16 +1,20 @@
-/* 全局样式 */
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global Styles */
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #e0f7fa; /* 淡蓝色背景 */
+    font-family: 'Roboto', sans-serif; /* Applying Google Font globally */
+    background-color: #e0f7fa; /* Light blue background */
     color: #333;
 }
 
 header {
-    background-color: #00796b; /* 深蓝绿色导航 */
+    background-color: #00796b; /* Dark teal navigation bar */
     padding: 20px;
 }
 
+/* Navigation Styles */
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -33,24 +37,26 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* 通用section样式 */
+/* Section Styles */
 section {
     padding: 60px 20px;
     text-align: center;
+    background-color: #f0f8ff; /* Very light blue for section background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow to lift sections */
 }
 
-/* 图片通用样式 */
+/* Common Image Styles */
 img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow to images */
     margin-top: 20px;
 }
 
-/* 欢迎页面样式 */
+/* Welcome Section Styles */
 .welcome-section {
-    background-color: #b2ebf2; /* 浅蓝色背景 */
+    background-color: #b2ebf2; /* Light teal background */
 }
 
 .welcome-section p {
@@ -58,7 +64,7 @@ img {
     color: #004d40;
 }
 
-/* About Us 样式 */
+/* About Us Section */
 .about-section {
     display: flex;
     justify-content: space-around;
@@ -75,10 +81,11 @@ img {
 .about-card img {
     width: 100%;
     max-width: 250px;
-    border-radius: 50%;
+    border-radius: 50%; /* Circle-shaped images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
 }
 
-/* Resources 样式 */
+/* Resources Section */
 .resource-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -96,7 +103,7 @@ img {
     text-decoration: underline;
 }
 
-/* Tech Hero 样式 */
+/* Tech Hero Section */
 .hero-section {
     text-align: center;
     margin-top: 20px;
@@ -105,16 +112,19 @@ img {
 .hero-section img {
     max-width: 250px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Footer Styles */
 footer {
     background-color: #00796b;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
 }
 
 
