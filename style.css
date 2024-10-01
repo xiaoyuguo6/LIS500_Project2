@@ -4,73 +4,66 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.navigation ul {
-    list-style-type: none;
-    padding: 0;
+/* 页眉样式 */
+.header {
     background-color: #444;
-    overflow: hidden;
-}
-
-.navigation ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-.navigation ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 14px 20px;
-    display: inline-block;
-}
-
-.navigation ul li a:hover {
-    background-color: #333;
-}
-
-section {
-    padding: 20px;
-    margin: 20px 0;
-}
-
-.about-container, .hero-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.profile, .hero-container {
+    color: #fff;
     text-align: center;
-    margin: 10px;
+    padding: 1.5rem;
 }
 
-.profile img, .hero-container img {
+h1 {
+    margin: 0;
+}
+
+/* 个人信息展示样式 */
+.about-section, .hero-section, .resources-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.member, .hero-profile {
+    margin: 2rem 0;
+}
+
+.member img, .hero-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-#resources ul {
+h2 {
+    margin: 1rem 0;
+}
+
+ul {
     list-style-type: none;
     padding: 0;
 }
 
-#resources ul li {
-    margin: 5px 0;
+ul li {
+    margin: 0.5rem 0;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+ul li a {
+    color: #007bff;
+    text-decoration: none;
 }
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 页脚样式 */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
