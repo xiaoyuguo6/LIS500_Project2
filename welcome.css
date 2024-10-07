@@ -1,7 +1,6 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Global Styles */
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif; /* Applying Google Font globally */
@@ -94,11 +93,11 @@ img {
 
 /* Resources Section */
 .resource-section r {
-    font-family: 'Georgia', serif; /* 更改为你想要的字体 */
-    font-size: 1.2em; /* 调整字体大小 */
-    color: #555; /* 设置字体颜色 */
-    line-height: 1.6; /* 设置行高 */
-    text-align: left; /* 设置对齐方式 */
+    font-family: 'Georgia', serif; 
+    font-size: 1.2em; 
+    color: #555; 
+    line-height: 1.6; 
+    text-align: left;
 }
 .resource-section {
     display: grid;
@@ -119,11 +118,11 @@ img {
 
 /* Tech Hero Section */
 .hero-section h {
-    font-family: 'Georgia', serif; /* 更改为你想要的字体 */
-    font-size: 1.2em; /* 调整字体大小 */
-    color: #555; /* 设置字体颜色 */
-    line-height: 1.6; /* 设置行高 */
-    text-align: left; /* 设置对齐方式 */
+    font-family: 'Georgia', serif; 
+    font-size: 1.2em; 
+    color: #555; 
+    line-height: 1.6; 
+    text-align: left; 
 }
 
 .hero-section {
@@ -148,13 +147,3 @@ footer {
     width: 100%;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
 }
-
-
-
-
-
-
-
- 
-
-
