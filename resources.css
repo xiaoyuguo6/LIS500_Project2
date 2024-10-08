@@ -79,9 +79,11 @@ nav a:hover {
 }
 
 .reflection-item p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #333;
     margin: 30 60px; /* Adds left and right margin */
+    padding-left: 20px; /* Adjusts the left padding */
+    padding-right: 20px; /* Adjusts the right padding */
     line-height: 1.6;
     text-align: justify; /* Justifies the text for a cleaner look */
     margin-bottom: 30px;
