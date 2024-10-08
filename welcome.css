@@ -98,15 +98,15 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
 }
 
-/* Resources Section */
+/* Resources Section Text */
 .resource-section r {
     font-family: 'Georgia', serif;
     font-size: 1.2em;
     color: #555;
     line-height: 1.6;
     text-align: left;
-    padding-left: 80px; 
-    padding-right: 80px; /* Add padding for text spacing */
+    padding-left: 40px;
+    padding-right: 40px; 
 }
 
 .resource-section {
@@ -126,16 +126,6 @@ img {
     text-decoration: underline;
 }
 
-/* Tech Hero Section Text */
-.hero-section h {
-    font-family: 'Georgia', serif;
-    font-size: 3em;
-    color: #555;
-    line-height: 1.6;
-    text-align: left;
-    padding-left: 60px;
-    padding-right: 60px; /* Add padding for text spacing */
-}
 
 /* Tech Hero Section Layout */
 .hero-section {
