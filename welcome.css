@@ -68,9 +68,9 @@ img {
 }
 
 /* About Us Section */
-.about-section k {
+.about-section p {
     font-family: 'Georgia', serif; 
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #555;
     line-height: 1.6;
     text-align: left;
@@ -100,10 +100,9 @@ img {
 
 
 /* Tech Hero Section Layout */
-/* About Us Section */
 .hero-section p {
     font-family: 'Georgia', serif; 
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #555;
     line-height: 1.6;
     text-align: left;
