@@ -98,34 +98,6 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
 }
 
-/* Resources Section Text */
-.resource-section r {
-    font-family: 'Georgia', serif;
-    font-size: 3em;
-    color: #555;
-    line-height: 1.6;
-    text-align: left;
-    padding-left: 80px;
-    padding-right: 80px; 
-}
-
-.resource-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    text-align: center;
-}
-
-.resource-section a {
-    color: #00796b;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-.resource-section a:hover {
-    text-decoration: underline;
-}
-
 
 /* Tech Hero Section Layout */
 .hero-section e {
