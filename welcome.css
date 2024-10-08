@@ -139,7 +139,7 @@ img {
 
 /* Tech Hero Section Image */
 .hero-section img {
-    max-width: 120px !important; /* Limit image size */
+    max-width: 300px !important; /* Limit image size */
     height: auto !important;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
