@@ -128,6 +128,15 @@ img {
 
 
 /* Tech Hero Section Layout */
+.hero-section e {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px; 
+}
 .hero-section {
     text-align: center;
     margin-top: 20px;
