@@ -38,19 +38,21 @@ nav a:hover {
 
 /* Section Styles */
 section {
-    padding: 60px 20px;
+    padding: 60px 80px; /* Consistent padding for all sections */
     text-align: center;
     background-color: #f0f8ff; /* Very light blue for section background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow to lift sections */
+    margin: 0 auto; /* Center sections */
+    max-width: 1200px; /* Limit section width */
 }
 
 /* Common Image Styles */
 img {
-    max-width: 100%;
+    max-width: 80%; /* Control image size globally */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow to images */
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 /* Welcome Section Styles */
@@ -61,16 +63,21 @@ img {
 .welcome-section p {
     font-size: 1.8em;
     color: #004d40;
+    padding-left: 80px;
+    padding-right: 80px; /* Add padding for text spacing */
 }
 
 /* About Us Section */
 .about-section k {
-    font-family: 'Georgia', serif; /* 更改为你想要的字体 */
-    font-size: 1.2em; /* 调整字体大小 */
-    color: #555; /* 设置字体颜色 */
-    line-height: 1.6; /* 设置行高 */
-    text-align: left; /* 设置对齐方式 */
+    font-family: 'Georgia', serif; 
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 80px; 
+    padding-right: 80px; /* Add padding for text spacing */
 }
+
 .about-section {
     display: flex;
     justify-content: space-around;
@@ -85,23 +92,23 @@ img {
 }
 
 .about-card img {
-    width: 100%;
-    max-width: 250px;
+    max-width: 200px; /* Limit the size of the image */
+    height: auto;
     border-radius: 50%; /* Circle-shaped images */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
 }
 
 /* Resources Section */
 .resource-section r {
-    font-family: 'Georgia', serif; 
-    font-size: 1.2em; 
-    color: #555; 
-    line-height: 1.6; 
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
     text-align: left;
-    text-align: left; 
     padding-left: 80px; 
-    padding-right: 80px;
+    padding-right: 80px; /* Add padding for text spacing */
 }
+
 .resource-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -121,13 +128,13 @@ img {
 
 /* Tech Hero Section Text */
 .hero-section h {
-    font-family: 'Georgia', serif; 
-    font-size: 4em; 
-    color: #555; 
-    line-height: 1.6; 
-    text-align: left; 
-    padding-left: 80px; 
-    padding-right: 80px;
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px; /* Add padding for text spacing */
 }
 
 /* Tech Hero Section Layout */
@@ -135,18 +142,20 @@ img {
     text-align: center;
     margin-top: 20px;
     padding: 40px 60px;
-    max-width: 1200px; 
+    max-width: 1200px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+}
 
 /* Tech Hero Section Image */
 .hero-section img {
-    max-width: 50px !important;
+    max-width: 100px !important; /* Limit image size */
     height: auto !important;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }
+
 /* Footer Styles */
 footer {
     background-color: #00796b;
@@ -158,3 +167,4 @@ footer {
     width: 100%;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
 }
+
