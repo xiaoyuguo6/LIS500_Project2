@@ -1,91 +1,93 @@
+/* Basic Body Styling */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    /* Sets the font for the entire page to Arial */
     background-color: #e0f7fa;
-    /* Light blue background for the whole page */
     color: #333;
-    /* Default text color (dark gray) */
 }
 
-/* Header styles */
+/* Header Styles */
 header {
     background-color: #00796b;
-    /* Deep greenish-blue background for the header */
     padding: 20px;
-    /* Padding inside the header for spacing */
 }
 
-/* Navigation menu styles */
+/* Navigation Menu Styles */
 nav ul {
     list-style-type: none;
-    /* Removes bullets from the list */
     text-align: center;
-    /* Centers the navigation links */
     padding: 0;
     margin: 0;
-    /* Removes default padding and margin from the list */
 }
 
 nav ul li {
     display: inline-block;
-    /* Displays list items in a horizontal row */
     margin: 0 20px;
-    /* Adds horizontal space between each link */
 }
 
 nav a {
     color: #fff;
-    /* White text for the links */
     text-decoration: none;
-    /* Removes underline from links */
     font-size: 1.2em;
-    /* Slightly larger font for the navigation links */
 }
 
 nav a:hover {
     text-decoration: underline;
-    /* Underline the links when hovered over */
 }
 
-/* Resource section styles */
+/* Resource Section Styling */
 .resource-section {
-    padding: 80px 120px; /* Increases left and right padding for more spacing */
+    padding: 80px 0;
     background-color: #f0f0f0;
     text-align: center;
+    max-width: 1000px; /* Sets maximum width */
+    margin-left: auto; /* Centering the section */
+    margin-right: auto; /* Centering the section */
+}
+
+/* Resource Item Styling */
+.resource-item {
+    margin-bottom: 40px;
 }
 
 .resource-item h3 {
     font-size: 1.8em;
     color: #00796b;
-    margin-bottom: 20px; /* Adds space below the heading */
+    margin-bottom: 20px;
 }
 
 .resource-item p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #333;
-    padding-left: 20px; /* Adds left padding to space the text */
-    padding-right: 20px; /* Adds right padding to space the text */
-    margin-bottom: 20px; /* Adds space below the paragraph */
+    margin: 0 20px; /* Adds left and right margin */
+    text-align: justify; /* Justifies the text for a cleaner look */
 }
 
-/* Reflection section styles */
+/* Embedded Video Styling */
+.resource-item iframe {
+    margin-top: 20px;
+}
+
+/* Reflection Section Styling */
 .reflection-section {
     background-color: #ffffff;
-    padding: 80px 120px; /* Increases left and right padding for more spacing */
+    padding: 80px 0;
     text-align: left;
+    max-width: 1000px; /* Sets maximum width */
+    margin-left: auto; /* Centering the section */
+    margin-right: auto; /* Centering the section */
 }
 
 .reflection-item p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #333;
-    padding-left: 20px; /* Adds left padding for better spacing */
-    padding-right: 20px; /* Adds right padding for better spacing */
+    margin: 0 20px; /* Adds left and right margin */
     line-height: 1.6;
+    text-align: justify; /* Justifies the text for a cleaner look */
     margin-bottom: 30px;
 }
 
-/* Footer styles */
+/* Footer Styles */
 footer {
     background-color: #00796b;
     color: white;
