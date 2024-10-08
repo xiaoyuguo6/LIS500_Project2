@@ -50,7 +50,7 @@ nav a:hover {
 
 /* Resource section styles */
 .resource-section {
-    padding: 80px 80px;
+    padding: 100px 100px;
     /* Adds padding inside the resource section (top, bottom, left, and right) */
     background-color: #f0f0f0;
     /* Light gray background for the resource section */
@@ -95,7 +95,7 @@ nav a:hover {
 .reflection-section {
     background-color: #ffffff;
     /* White background for the reflection section */
-    padding: 40px 40px;
+    padding: 80px 80px;
     /* Adds padding inside the reflection section to give space around the content */
     text-align: left;
     /* Aligns text to the left in the reflection section */
