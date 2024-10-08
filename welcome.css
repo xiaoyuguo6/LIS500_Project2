@@ -100,6 +100,17 @@ img {
 
 
 /* Tech Hero Section Layout */
+/* About Us Section */
+.hero-section p {
+    font-family: 'Georgia', serif; 
+    font-size: 1.3em;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 80px; 
+    padding-right: 80px; /* Add padding for text spacing */
+}
+
 .hero-section {
     text-align: center;
     margin-top: 20px;
