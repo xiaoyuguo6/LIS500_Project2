@@ -141,8 +141,8 @@ img {
 
 /* Tech Hero Section Image */
 .hero-section img {
-    width: 50px;
-    height: auto;
+    max-width: 50px !important;
+    height: auto !important;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
