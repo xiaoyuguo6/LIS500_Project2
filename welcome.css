@@ -98,6 +98,9 @@ img {
     color: #555; 
     line-height: 1.6; 
     text-align: left;
+    text-align: left; 
+    padding-left: 80px; 
+    padding-right: 80px;
 }
 .resource-section {
     display: grid;
