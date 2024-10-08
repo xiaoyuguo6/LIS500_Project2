@@ -70,7 +70,7 @@ img {
 /* About Us Section */
 .about-section k {
     font-family: 'Georgia', serif; 
-    font-size: 3em;
+    font-size: 1.5em;
     color: #555;
     line-height: 1.6;
     text-align: left;
@@ -102,7 +102,7 @@ img {
 /* Tech Hero Section Layout */
 .hero-section e {
     font-family: 'Georgia', serif;
-    font-size: 3em;
+    font-size: 1.5em;
     color: #555;
     line-height: 1.6;
     text-align: left;
