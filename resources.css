@@ -50,89 +50,49 @@ nav a:hover {
 
 /* Resource section styles */
 .resource-section {
-    padding: 80px 80px;
-    /* Adds padding inside the resource section (top, bottom, left, and right) */
+    padding: 80px 120px; /* Increases left and right padding for more spacing */
     background-color: #f0f0f0;
-    /* Light gray background for the resource section */
     text-align: center;
-    /* Center-aligns the text within the resource section */
-}
-
-.resource-item {
-    margin-bottom: 40px;
-    /* Adds space below each resource item */
 }
 
 .resource-item h3 {
     font-size: 1.8em;
-    /* Larger font size for resource titles */
     color: #00796b;
-    /* Greenish-blue color for the resource titles */
+    margin-bottom: 20px; /* Adds space below the heading */
 }
 
 .resource-item p {
     font-size: 1.2em;
-    /* Slightly larger font size for the resource descriptions */
     color: #333;
-    /* Dark gray text color for descriptions */
-}
-
-.resource-item a {
-    color: #00796b;
-    /* Greenish-blue color for the links in the resource section */
-    font-size: 1.1em;
-    /* Slightly larger font size for the resource links */
-    text-decoration: none;
-    /* Removes underline from resource links */
-}
-
-.resource-item a:hover {
-    text-decoration: underline;
-    /* Underlines the links when hovered over */
+    padding-left: 20px; /* Adds left padding to space the text */
+    padding-right: 20px; /* Adds right padding to space the text */
+    margin-bottom: 20px; /* Adds space below the paragraph */
 }
 
 /* Reflection section styles */
 .reflection-section {
     background-color: #ffffff;
-    /* White background for the reflection section */
-    padding: 80px 80px;
-    /* Adds padding inside the reflection section to give space around the content */
+    padding: 80px 120px; /* Increases left and right padding for more spacing */
     text-align: left;
-    /* Aligns text to the left in the reflection section */
-}
-
-.reflection-item {
-    margin-bottom: 30px;
-    /* Adds space between each reflection item */
 }
 
 .reflection-item p {
     font-size: 1.1em;
-    /* Slightly larger font size for reflection text */
     color: #333;
-    /* Dark gray color for reflection text */
+    padding-left: 20px; /* Adds left padding for better spacing */
+    padding-right: 20px; /* Adds right padding for better spacing */
     line-height: 1.6;
-    /* Increases line height for better readability */
-}
-
-.reflection-item strong {
-    color: #00796b;
-    /* Greenish-blue color for bolded text (strong element) */
+    margin-bottom: 30px;
 }
 
 /* Footer styles */
 footer {
     background-color: #00796b;
-    /* Greenish-blue background color for the footer */
     color: white;
-    /* White text color in the footer */
     text-align: center;
-    /* Centers the text in the footer */
     padding: 20px;
-    /* Adds padding inside the footer for spacing */
     position: relative;
     bottom: 0;
-    /* Ensures the footer stays at the bottom */
     width: 100%;
-    /* Makes the footer span the entire width of the page */
 }
+
