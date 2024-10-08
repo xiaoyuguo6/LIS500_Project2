@@ -138,10 +138,11 @@ img {
 
 /* Tech Hero Section Image */
 .hero-section img {
-    max-width: 100px;
+    width: 80px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 /* Footer Styles */
 footer {
