@@ -1,17 +1,17 @@
 /* 全局样式 */
 body {
-    font-family: "Arial", sans-serif; /* 更常见且适合阅读的字体 */
+    font-family: "Arial", sans-serif; /* 简洁清晰的字体 */
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6; /* 调整行高，更适合阅读 */
+    background-color: #f9f9f9; /* 背景色 */
+    color: #333; /* 全局字体颜色 */
+    line-height: 1.6; /* 行高，增强阅读体验 */
 }
 
 /* 顶部导航 */
 header {
     background-color: #00796b;
-    padding: 10px 0; /* 高度稍微缩小 */
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.1em; /* 导航字体较小，更简洁 */
+    font-size: 1.2em; /* 导航字体大小适中 */
 }
 
 header nav ul li a:hover {
@@ -39,50 +39,49 @@ header nav ul li a:hover {
 
 /* 主体内容 */
 main {
-    padding: 20px; /* 减少内边距，让内容更紧凑 */
-}
-
-main section {
-    margin-bottom: 30px; /* 缩小每个部分的间距 */
-    background-color: white;
     padding: 20px;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    max-width: 50%; /* 内容宽度限制在屏幕的50% */
+    margin: 0 auto; /* 水平居中 */
+    background-color: white; /* 背景白色 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15); /* 阴影效果 */
+    text-align: left; /* 内容左对齐 */
 }
 
+/* 内容标题和段落 */
 main section h2, main section h3 {
     color: #00796b;
-    font-size: 1.8em; /* 标题字体适中，不占据过多空间 */
+    font-size: 1.8em; /* 标题字体适中 */
     margin-bottom: 10px;
 }
 
 main section p {
-    font-size: 1em; /* 段落字体较小，更适合长时间阅读 */
+    font-size: 1em; /* 段落字体适中，增强阅读体验 */
     margin-bottom: 15px;
-    text-align: justify; /* 两端对齐，增强视觉整齐感 */
+    text-align: justify; /* 段落两端对齐 */
 }
 
 /* 图片样式 */
 .model-image {
-    width: 85%; /* 图片宽度适中 */
-    height: auto;
-    border: 2px solid #ccc; /* 边框略细 */
-    margin: 15px 0; /* 上下间距更紧凑 */
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15); /* 保持柔和阴影 */
+    width: 100%; /* 图片宽度为容器宽度 */
+    height: auto; /* 高度自适应 */
+    border: 2px solid #ccc; /* 添加边框 */
+    margin: 15px 0; /* 上下间距 */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15); /* 阴影效果 */
+    border-radius: 6px; /* 圆角图片 */
 }
 
 /* 按钮样式 */
 .button {
     display: inline-block;
-    padding: 10px 20px; /* 按钮稍微缩小 */
+    padding: 10px 20px; /* 按钮大小适中 */
     background-color: #00796b;
     color: white;
     text-decoration: none;
-    font-size: 1.1em; /* 按钮字体适中 */
+    font-size: 1.1em; /* 按钮字体大小适中 */
     border-radius: 6px;
     margin-top: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 按钮阴影轻微柔和 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
 }
 
 .button:hover {
@@ -94,7 +93,15 @@ footer {
     text-align: center;
     background-color: #00796b;
     color: white;
-    padding: 10px 0; /* 页脚高度较低 */
-    font-size: 0.9em; /* 页脚字体较小 */
+    padding: 10px 0;
+    font-size: 0.9em; /* 页脚字体稍小 */
     margin-top: 20px;
+}
+
+/* 视频区域 */
+.video iframe {
+    max-width: 100%; /* 响应式视频宽度 */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* 居中显示 */
 }
