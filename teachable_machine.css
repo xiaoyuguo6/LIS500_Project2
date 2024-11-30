@@ -70,12 +70,25 @@ main section .button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Video Section */
-main section iframe {
+/* Tools Section */
+.model-tools {
+    margin-top: 15px;
+}
+
+.model-tools label {
     display: block;
-    margin: 20px auto;
-    border: none;
-    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.model-tools input {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 /* Footer */
