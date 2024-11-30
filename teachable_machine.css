@@ -30,7 +30,7 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1em; /* 导航字体稍微缩小 */
+    font-size: 0.5em; /* 导航字体稍微缩小 */
 }
 
 header nav ul li a:hover {
@@ -53,18 +53,18 @@ main section {
 
 main section h2, main section h3 {
     color: #00796b;
-    font-size: 1.2em; /* 标题字体稍微缩小 */
+    font-size: 0.5em; /* 标题字体稍微缩小 */
     margin-bottom: 12px;
 }
 
 main section p {
-    font-size: 1.2em; /* 段落字体稍微缩小 */
+    font-size: 0.5em; /* 段落字体稍微缩小 */
     margin-bottom: 18px;
 }
 
 /* 图片样式 */
 .model-image {
-    width: 70%; /* 图片宽度稍微减小 */
+    width: 50%; /* 图片宽度稍微减小 */
     height: auto;
     border: 2px solid #ccc; /* 边框宽度稍微减小 */
     margin: 15px 0; /* 上下间距稍微缩小 */
@@ -78,7 +78,7 @@ main section p {
     background-color: #00796b;
     color: white;
     text-decoration: none;
-    font-size: 1.3em; /* 按钮字体稍微缩小 */
+    font-size: 1em; /* 按钮字体稍微缩小 */
     border-radius: 8px;
     margin-top: 15px; /* 按钮与上方内容的间距稍微缩小 */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* 阴影稍微柔和 */
@@ -94,6 +94,6 @@ footer {
     background-color: #00796b;
     color: white;
     padding: 15px 0; /* 页脚高度稍微缩小 */
-    font-size: 1em; /* 页脚字体稍微缩小 */
+    font-size: 0.5em; /* 页脚字体稍微缩小 */
     margin-top: 30px;
 }
