@@ -71,17 +71,19 @@ main section .button:hover {
 }
 
 /* Tools Section */
-.model-tools {
+.model-tools, .code-link {
     margin-top: 15px;
 }
 
-.model-tools label {
+.model-tools label,
+.code-link label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.model-tools input {
+.model-tools input,
+.code-link input {
     display: block;
     width: 100%;
     max-width: 400px;
