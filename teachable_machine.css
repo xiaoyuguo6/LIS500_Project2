@@ -6,13 +6,13 @@ body {
     background-color: #f9f9f9; /* 背景色 */
     color: #333; /* 全局字体颜色 */
     line-height: 1.6; /* 行高，增强阅读体验 */
+    text-align: center; /* 全局居中，辅助对齐 */
 }
 
 /* 顶部导航 */
 header {
     background-color: #00796b;
     padding: 10px 0;
-    text-align: center;
 }
 
 header nav ul {
@@ -20,7 +20,7 @@ header nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* 居中导航 */
 }
 
 header nav ul li {
@@ -39,11 +39,11 @@ header nav ul li a:hover {
 
 /* 主体内容 */
 main {
-    padding: 20px;
-    max-width: 50%; /* 内容宽度限制在屏幕的50% */
+    max-width: 50%; /* 限制内容宽度为屏幕的50% */
     margin: 0 auto; /* 水平居中 */
-    background-color: white; /* 背景白色 */
-    border-radius: 8px; /* 圆角 */
+    padding: 20px;
+    background-color: white; /* 背景色 */
+    border-radius: 8px; /* 圆角效果 */
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15); /* 阴影效果 */
     text-align: left; /* 内容左对齐 */
 }
@@ -53,6 +53,7 @@ main section h2, main section h3 {
     color: #00796b;
     font-size: 1.8em; /* 标题字体适中 */
     margin-bottom: 10px;
+    text-align: center; /* 标题居中 */
 }
 
 main section p {
@@ -82,10 +83,19 @@ main section p {
     border-radius: 6px;
     margin-top: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    text-align: center;
 }
 
 .button:hover {
     background-color: #005a4f;
+}
+
+/* 视频区域 */
+.video iframe {
+    max-width: 100%; /* 响应式视频宽度 */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* 居中显示 */
 }
 
 /* 页脚 */
@@ -96,12 +106,4 @@ footer {
     padding: 10px 0;
     font-size: 0.9em; /* 页脚字体稍小 */
     margin-top: 20px;
-}
-
-/* 视频区域 */
-.video iframe {
-    max-width: 100%; /* 响应式视频宽度 */
-    height: auto;
-    display: block;
-    margin: 20px auto; /* 居中显示 */
 }
