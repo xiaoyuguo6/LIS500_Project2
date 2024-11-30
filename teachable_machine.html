@@ -36,7 +36,8 @@ Through this project, we aimed to leverage technology to enhance the understandi
             
             <h3><strong>Algorithmic Bias is Pervasive and Powerful</strong></h3>
             <p>
-                Buolamwini's emphasis on how algorithms can reinforce systemic biases was a profound insight. Her example of facial recognition systems failing to identify women and people of color highlighted how data and design choices can marginalize communities. This inspired us to critically audit our own dataset to ensure that it represented diverse demographics, minimizing the replication of such biases.
+                Buolamwini's emphasis on how algorithms can reinforce systemic biases was a profound insight. Her example of facial recognition systems failing to identify women and people of color highlighted how data and design choices can marginalize communities. This inspired us to critically audit our own dataset, even though our project was relatively small in scale. For example, while using toy models of animals, we considered whether the specific designs of these toys—such as exaggerated or cartoonish features—might inadvertently lead to biases in our model's perception of real-world animals.
+                We also explored how background diversity impacted classification accuracy. If all training images were taken against plain or similar backdrops, the model might struggle with generalizing to real-world environments. To mitigate this, we rotated toys against a variety of backgrounds, from patterned fabrics to textured walls. These steps reflected our awareness of the risks that unchecked biases, even in small-scale projects, could propagate into larger systems.
             </p>
             
             <h3><strong>Transparency and Accountability are Essential</strong></h3>
