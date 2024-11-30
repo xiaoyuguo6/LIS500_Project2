@@ -70,25 +70,16 @@ main section .button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Tools Section */
-.model-tools, .code-link {
+/* Model Images */
+.model-images {
     margin-top: 15px;
+    text-align: center;
 }
 
-.model-tools label,
-.code-link label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.model-tools input,
-.code-link input {
-    display: block;
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    margin-bottom: 15px;
+.model-images img {
+    max-width: 100%;
+    width: 300px;
+    margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
