@@ -1,4 +1,4 @@
-/* General Styles */
+/* 全局样式 */
 body {
     font-family: "Georgia", serif;
     margin: 0;
@@ -8,6 +8,7 @@ body {
     line-height: 1.8;
 }
 
+/* 顶部导航 */
 header {
     background-color: #00796b;
     padding: 20px 0;
@@ -36,9 +37,9 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Main Content */
+/* 主体内容 */
 main {
-    padding: 20px;
+    padding: 40px;
 }
 
 main section {
@@ -57,48 +58,42 @@ main section h2, main section h3 {
 }
 
 main section p {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 20px;
 }
 
-/* Images Grid */
-.model-images {
-    margin-top: 20px;
-}
-
+/* 图片样式 */
 .model-image {
-    display: block;
-    margin: 20px auto;
-    width: 90%;
+    width: 100%; /* 图片宽度占满容器 */
     height: auto;
     border: 3px solid #ccc;
-    border-radius: 10px;
+    margin: 20px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Button */
+/* 按钮样式 */
 .button {
     display: inline-block;
-    margin-top: 20px;
     padding: 15px 30px;
     background-color: #00796b;
     color: white;
     text-decoration: none;
     font-size: 1.5em;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 .button:hover {
     background-color: #005a4f;
 }
 
-/* Footer */
+/* 页脚 */
 footer {
     text-align: center;
     background-color: #00796b;
     color: white;
     padding: 20px 0;
-    margin-top: 40px;
     font-size: 1.3em;
+    margin-top: 40px;
 }
