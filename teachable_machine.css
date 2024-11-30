@@ -1,125 +1,110 @@
-/* Basic Body Styling */
+/* 全局样式 */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #e0f7fa;
     color: #333;
-    text-align: center; /* 辅助内容居中 */
+    line-height: 1.6; /* 行高，适合阅读 */
 }
 
-/* Header Styles */
+/* 顶部导航 */
 header {
     background-color: #00796b;
-    padding: 20px;
+    padding: 10px 0;
 }
 
-/* Navigation Menu Styles */
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    margin: 0 auto;
     padding: 0;
-    margin: 0;
+    max-width: 1000px; /* 导航栏宽度统一 */
     display: flex;
-    justify-content: center; /* 居中导航 */
+    justify-content: center;
 }
 
 nav ul li {
     margin: 0 20px;
 }
 
-nav a {
-    color: #fff;
+nav ul li a {
+    color: white;
     text-decoration: none;
     font-size: 1.2em;
 }
 
-nav a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Main Section Styling */
+/* 主体内容 */
 main {
-    max-width: 50%; /* 限制内容宽度为屏幕中央50% */
-    margin: 20px auto; /* 居中内容 */
+    max-width: 50%; /* 内容宽度限制为屏幕中央50% */
+    margin: 20px auto; /* 水平居中 */
     padding: 20px;
-    background-color: #fff; /* 背景白色 */
-    border-radius: 10px; /* 圆角 */
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* 添加柔和阴影 */
+    background-color: white; /* 白色背景 */
+    border-radius: 8px; /* 圆角效果 */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
     text-align: left; /* 内容左对齐 */
 }
 
-/* Section Headings */
-main h2, main h3 {
+/* 小标题样式 */
+main section h3 {
     color: #00796b;
-    font-size: 1.8em; /* 标题大小适中 */
-    margin-bottom: 15px;
-    text-align: center; /* 标题居中 */
+    font-size: 1.2em; /* 小标题字体较小 */
+    margin-bottom: 10px;
+    text-align: left; /* 小标题靠左分布 */
 }
 
-/* Paragraph Styling */
+/* 段落样式 */
 main p {
     font-size: 1em; /* 段落字体适中 */
-    line-height: 1.6; /* 行高 */
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: justify; /* 段落两端对齐 */
 }
 
-/* Embedded Video Styling */
+/* 视频样式 */
 main iframe {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
-    border-radius: 8px;
+    width: 100%; /* 宽度设置为容器的100% */
+    height: 450px; /* 高度固定为450px，适合完整展示视频 */
+    margin: 20px 0; /* 上下间距 */
+    border-radius: 8px; /* 圆角效果 */
 }
 
-/* Resource Section Styling */
-.resource-section {
-    padding: 40px 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+/* 图片样式 */
+.model-image {
+    width: 100%; /* 图片宽度为容器宽度 */
+    height: auto; /* 高度自适应 */
+    border: 2px solid #ccc; /* 添加边框 */
+    margin: 15px 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15); /* 阴影效果 */
+    border-radius: 6px; /* 圆角图片 */
 }
 
-.resource-item {
-    margin-bottom: 30px;
-}
-
-.resource-item h3 {
-    font-size: 1.5em;
-    color: #00796b;
-    margin-bottom: 10px;
-    text-align: center; /* 居中标题 */
-}
-
-.resource-item p {
-    font-size: 1em;
-    margin: 0 10px;
-    line-height: 1.5;
-    text-align: justify;
-}
-
-/* Reflection Section Styling */
-.reflection-section {
-    background-color: #ffffff;
-    padding: 40px 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-}
-
-.reflection-item p {
-    font-size: 1em;
-    line-height: 1.5;
-    text-align: justify;
-    margin-bottom: 20px;
-}
-
-/* Footer Styles */
-footer {
+/* 按钮样式 */
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* 按钮大小适中 */
     background-color: #00796b;
     color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 6px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 按钮阴影 */
     text-align: center;
+}
+
+.button:hover {
+    background-color: #005a4f;
+}
+
+/* 页脚 */
+footer {
+    text-align: center;
+    background-color: #00796b;
+    color: white;
     padding: 10px 0;
-    font-size: 0.9em;
+    font-size: 0.9em; /* 页脚字体稍小 */
     margin-top: 20px;
     position: relative;
     bottom: 0;
